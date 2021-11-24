@@ -1,0 +1,709 @@
+@charset "utf-8";
+/*CSS Document*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Bahnschrift', sans-serif;
+}
+
+body{
+    height: 100%;
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+/*Navigation Section*/
+.meatup{
+    height: 150px;
+    margin: 60px;
+    margin-left: 10%;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.nav{
+    display: inline-flex;
+    width: auto;
+    color: white;
+    font-size: 20px;
+    list-style: none;
+    position: relative;
+    top: -195px;
+    right: -25%;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+.navv{
+    text-align: center;
+    border-style: solid;
+    border-color: white;
+    text-decoration-style: none;
+    width: 150px;
+    padding: 10px;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.toptop{
+    float: right;
+    margin-right: 5%;
+}
+.toptopp li{
+    margin: 30px;
+    font-size: 25px;
+    list-style: none;
+    display: inline-block;
+    color: white; 
+}
+
+/*Banner Section*/
+.banner h1{
+    position: relative;
+    color: white;
+    font-weight: 300;
+    font-size: 50px;
+    
+    top: -20px;
+}
+.banner a{
+    text-decoration: none;
+}
+.banner{
+    position: relative;
+    top: -150px;
+}
+
+.banner h2{
+    position: relative;
+    color: white;
+    font-weight: 300;
+    font-size: 23px;
+    right: -31%;
+    top: -15px;;
+}
+.banner p{
+    position: relative;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    border-style: solid;
+    width: 200px;
+    padding: 10px;
+    margin: 30px;
+    border-radius: 10px;
+    right: -40.5%;
+    top: -10px;
+    margin-bottom: 13%;
+}
+/*Steps Section*/
+.steps{
+    background-color: white;
+    height: 580px;
+    margin-top: -20%
+
+}
+
+.steps h1{
+    position: relative;
+    color: black;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    top: 5%;
+}
+
+.steps h1::after, .steps h1::before{
+    display: inline-block;
+    content: "";
+    border-top: .3rem solid black;
+    width: 4rem;
+    margin: 0 1rem;
+    transform: translateY(-1rem);
+}
+
+.stepps{
+    position: relative;
+    display: inline-block;
+    /*    border-style: solid;*/
+    border-color: black;
+    height: 250px;
+    width: 400px;
+    margin: 40px;
+    top: 60px;
+    right: -40px;
+    float: left;
+
+}
+.stepps h2{
+    position: relative;
+    top: 10%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 350;
+
+}
+.stepps h2::after{
+    display: block;
+    height: 1px;
+    border-top-style: solid;
+    border-color: black;
+    content: "";
+    width: 50px;
+    margin-left: 170px;
+    margin-top: 10px;
+}
+
+.stepps p{
+    position: relative;
+    top: 20%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300
+}
+
+.steps > a{
+    position:absolute;
+    text-align: center;
+    border-style: solid;
+    width: 250px;
+    padding: 10px;
+    margin: 30px;
+    border-radius: 10px;
+    font-size: 30px;
+     transform: translate(-50%, -50%);
+    margin-left: 50%;
+    text-decoration: none;
+    color: black;
+} 
+
+/*Footer Section*/
+
+footer{
+    /*	margin-top:40x;*/
+    position: relative;
+    z-index: 99;
+    width:100%;
+    height:250px;
+    background-color: black;
+    color: white;
+}
+
+.footer-container{
+    margin: auto;
+    text-align: center;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-columns{
+    width:10%;
+    margin:10px;
+    margin-left: 100px;
+    height:90%;
+    float:left;
+}
+
+.temp p{
+    margin-top: -20px;
+}
+
+.footer-column1{
+    margin-left: 0px;
+}
+
+.footer-column1 img{
+    transform: scale(0.4);
+}
+
+.footer-column2 img{
+    margin:40px;;
+}
+
+.footer-column3 img{
+    /*    display: inline-flex;*/
+    margin: 0px 10px;
+    margin-top: 35px;
+}
+.footer-column3 p{
+    margin-top: 90px;
+}
+.footer-column3{
+    width: 150px;
+}
+.footer-column3 ul{
+    list-style-type: none;
+}
+
+.footer-column4{
+    margin-top: 45px;
+    width:20%;
+}
+
+.social{
+    margin-top:40px;
+    list-style-type: none;
+    /*    display: inline-block;*/
+
+}
+.rowrow{
+    margin: auto;
+    text-align: center;
+    width:90%;
+    display: flex;
+    justify-content: center;
+}
+
+.social{
+    height:30px;
+    width:30px;
+    float: left;
+    display: flex;
+}
+
+.copy a{
+    text-decoration: none;
+    font-weight: 400;
+    color: red;
+}
+/*Menu Section*/
+
+.food{
+    height: 300px;
+    width: 240px;
+    background-color: white;
+    margin-left: 20px;
+}
+
+.food img{
+    height: 223px;
+
+    margin: 10px;
+}
+
+.all{
+    color: white;
+    font-weight: 400;
+    margin-left: 150px;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.row{
+    margin-left: 130px;
+    display: flex;
+}
+
+.food p{
+    margin-left: 10px;
+}
+.beefy{
+    display: flex;
+    margin-top: 30px;
+}
+
+.cowboy img{
+    height: 223px;
+    margin: 10px;
+
+}
+
+
+.chicken h2{
+    margin-left: 20px;
+}
+.second{
+    margin-top: 180px;
+}
+
+.chicken{
+    margin-top: 30px;
+}
+
+.third{
+    margin-top: 180px;
+}
+
+.fourth{
+    margin-top: 180px;
+}
+
+.pork{
+    margin-top: 20px;
+}
+.vegan{
+    margin-bottom: 300px;
+}
+
+.drinks{
+    margin-bottom: 300px;
+    background-color: white;
+    height:400px;
+    display: flex;
+}
+
+.soft{
+    padding: 100px;
+    display: flex;
+}
+
+.soft h2{
+    margin-bottom: 20px;
+}
+
+.name li{
+    font-size: 16px;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.price{
+    margin-left: 40px;
+}
+.price li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.juice h2{
+    margin-bottom: 20px;
+}
+
+.juice{
+    padding: 100px;
+    display: flex;
+}
+
+.short{
+    padding: 100px;
+    display: flex;
+}
+
+.short ul{
+    margin-top: 10px;
+}
+
+.drinks2{
+    background-color: white;
+    height:400px;
+    display: flex;
+    margin-top: -300px;
+}
+.beer{
+    padding: 100px;
+    display: flex;
+    margin-top: -140px;
+    height: 300px;
+
+}
+.beer ul{
+    margin-top: 10px;
+}
+.beercol{
+    margin-left:158px;
+}
+
+.mojito{
+    margin-left: 200px;
+    margin-top: 60px;
+    display: flex;
+}
+
+.drinks3{
+    background-color: white;
+    height:300px;
+    display: block;
+    margin-top:-170px;
+
+    width: 100%;
+    margin-bottom: 150px
+
+}
+.drinks3>h2{
+    margin-left: 100px;
+}
+.draught{
+    display: flex;
+    width: 100%;
+    margin-left: 100px;
+}
+.draught ul{
+    margin-top: 10px;
+}
+
+.draught h2{
+    margin-left: 0px;
+}
+
+.draught > .price{
+    margin-left: 150px
+}
+
+/*LOCATIONS SECTION*/
+
+.locations h2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: -120px;
+    font-weight: 400;
+    font-size: 40px
+
+}
+
+.addresses{
+    background-color: white;
+    height: 700px;
+    margin-top: 60px;
+    display: flex;
+    margin-bottom: 150px;
+
+
+}
+
+
+.addnames p{
+    font-size: 26px;
+    margin-top: 80px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+
+.map{
+    margin-left: 500px;
+    margin-top: 110px
+}
+
+/*contactus*/
+
+.track{
+    background-color: white;
+    height: 500px;
+    display: flex;
+    margin-top: -100px;
+}
+
+.trackorder h1{
+    margin-left: 150px;
+    margin-top: 150px;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+
+.order{
+    border-radius: 9px;
+    height: 45px;
+    width: 400px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 133px;
+    margin-top: 50px;
+    border-style: solid;
+    border-color: gray;
+    opacity: 0.5;
+}
+
+.order2{
+    margin-left: 280px;
+    margin-top: 40px;
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.map1{
+    margin-left: 300px;
+    margin-top: 30px;
+}
+
+.transactions{
+    margin-top: 60px;
+    background-color: white;
+    height: 1200px;
+    margin-bottom: 150px
+
+}
+body h1{
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 200px;
+    font-size: 45px;
+}
+
+.transactions h2{
+    margin-top: 10px;
+    font-weight: 200;
+    margin-left: 650px;
+}
+.receiptnames{
+    display: inline-block;
+    margin-left: 100px;
+    font-size: 25px;
+    margin-top: 50px;
+}
+.receiptnames ul{
+    list-style-type: none;
+}
+
+.namess li{
+    margin-bottom: 15px;
+}
+.prices{
+    float: right;
+    margin-top: 50px;
+    margin-right: 150px;
+    font-size: 25px;
+}
+.prices ul{
+    list-style-type: none;
+    text-align: center;
+}
+.prices li{
+    margin-bottom: 15px;
+}
+hr{
+    height: 2px;
+    background-color: black;
+}
+.no{
+    color: black;
+}
+
+.popup{
+    position: fixed;
+    background-color: white;
+    border-style: solid;
+    display: block;
+    height: 400px;
+    width: 400px;
+    z-index: 999999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: none;
+}
+
+.popup img{
+    display: block;
+    height: 200px;
+    width: 395.5px;
+    background-color: gray;
+    object-fit: cover; 
+}
+.add{
+    position: relative;
+    width: 200px;
+    height: 30px;
+    background-color: lawngreen;
+    border-style: none;
+    border-radius: 10px;
+    top:80px
+}
+.popup h3{
+    margin-top: 15px;
+}
+.popup h1{
+    font-size: 30px;
+    position: absolute;
+    color: red;
+    top: -195px;
+    right: 10px;
+    
+}
+.warn{
+    float: right;
+    position: relative;
+    bottom: -40px;
+    right: 20px;
+    font-weight: 500;
+
+
+}
+
+.plus ul{
+    list-style: none;
+    margin-top: 50px;
+    margin-left: 20px;    
+}
+
+.plus li{
+    margin-bottom: 10px;
+}
+
+.plus li:hover{
+    
+    cursor: pointer;
+}
+
+.contactform h1{
+    color: black;
+    margin-top: 20px;
+    text-align: center;
+}
+.contactform{
+    width: 100%;
+    background-color: white;
+    height: 750px;
+    margin-bottom: 150px;
+}
+.contactform form{
+    position: relative;
+    margin-top: 50px;
+    font-size: 30px;
+    left: 35%;
+    
+}
+#email, #name, #question {
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: gray;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+#question{
+    height: 100px;
+}
+#quest{
+    margin-left: -86px;
+}
+form label{
+    margin-left: -50px;
+}
+.help{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.submit{
+    margin-left: 155px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    height: 45px;
+    width: 140px;
+    border-radius: 10px;
+    
+}
+.submit:hover{
+    cursor: pointer;
+}
+
+.icons {
+    height: 30px;
+}
+.location-icon{
+    height: 90px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
